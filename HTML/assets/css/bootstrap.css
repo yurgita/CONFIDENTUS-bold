@@ -342,6 +342,24 @@ hr {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+
+h2.big {
+
+  color: white;
+  font-weight: 400;
+  margin-top: 150px;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+h2.smaller {
+
+
+  font-size: 35px;
+}
+
+
+
 h1,
 h2,
 h3,
@@ -407,7 +425,9 @@ h1 .small,
 h2 .small,
 .h2 .small,
 h3 .small,
-.h3 .small {
+.h3 .small
+h2 big .small
+{
   font-size: 65%;
 }
 h4,
