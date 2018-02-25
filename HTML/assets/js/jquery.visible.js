@@ -69,8 +69,8 @@
     $(element).each(function(i, el){
       var el = $(el);
       if (el.visible(true)) {
-        el.removeClass('visible').addClass('animated'); 
-      } 
+        el.removeClass('visible').addClass('animated');
+      }
     });
    }
 
@@ -78,9 +78,9 @@
     $(element).each(function(i, el) {
       var el = $(el);
          if (el.visible(false)) {
-        el.addClass("visible"); 
-      } 
-    });     
+        el.addClass("visible");
+      }
+    });
    }
 
    $(window).load(function(){
