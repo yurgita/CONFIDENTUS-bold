@@ -756,7 +756,6 @@ p.site-slogan {
   letter-spacing: 1px;
   line-height: normal;
   padding: 18px 20px;
-  text-transform: uppercase;
   display: block;
 }
 #hornav ul > li > a:hover,
@@ -766,7 +765,8 @@ p.site-slogan {
 #hornav ul > li > a.current,
 #hornav ul > li > span.current {
   background: none;
-  color: #ffffff;
+  color: #a77a00;
+
 }
 /* Dropdown Menu */
 #hornav ul ul {
@@ -799,7 +799,7 @@ p.site-slogan {
   box-shadow: none;
   display: block;
   padding: 6px 15px;
-  color: #555555 !important;
+  color: #a77a00 !important;
   text-transform: none;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
