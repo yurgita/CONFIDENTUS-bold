@@ -103,7 +103,9 @@ body {
   z-index: 20;
 }
 .logo img {
+  margin-top: 20px;
   margin-bottom: 15px;
+  margin-right: 80px;
 }
 p.site-slogan {
   color: #b1a5bd;
