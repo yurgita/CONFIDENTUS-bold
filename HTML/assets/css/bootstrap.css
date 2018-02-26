@@ -347,7 +347,7 @@ h2.big {
 
   color: white;
   font-weight: 400;
-  margin-top: 150px;
+  margin-top: 0px;
   margin-bottom: 10px;
   font-size: 50px;
 }
@@ -3988,14 +3988,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border-color: #dddddd;
+  border-color: none;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #dddddd;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #888888;
+  background-color: #454132;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
