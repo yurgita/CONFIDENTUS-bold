@@ -3651,7 +3651,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar {
   position: relative;
-  min-height: 106px;
+  max-height: 106px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
@@ -5798,4 +5798,4 @@ button.close {
   }
 }
 
-body { padding-top: 106px; }
+body { padding-top: 101px; }

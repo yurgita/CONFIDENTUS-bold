@@ -103,9 +103,7 @@ body {
   z-index: 20;
 }
 .logo img {
-  margin-top: 20px;
   margin-bottom: 15px;
-  margin-right: 80px;
 }
 p.site-slogan {
   color: #b1a5bd;
@@ -801,7 +799,7 @@ p.site-slogan {
   box-shadow: none;
   display: block;
   padding: 6px 15px;
-  color: #a77a00 !important;
+  color: #555555 !important;
   text-transform: none;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
