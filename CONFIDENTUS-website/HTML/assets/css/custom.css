@@ -8,8 +8,12 @@ h2 {
   padding-top: 80px;
 }
 
+#icon {
+  size: 40%;
+}
 #smallerh2 {
-  padding-top: 40px;
+  padding-top: 20px;
+  color: rgb(69, 65, 50);
 }
 
 @media screen and (max-width: 992px) {
@@ -196,4 +200,35 @@ h2 {
   .fh5co-nav-toggle {
     display: block;
   }
+}
+
+
+.panel-mine > .panel-heading {
+  border-color: none;
+  background-color: white;
+}
+.panel-mine > .panel-body {
+  border-color: none;
+  background-color: white;
+
+}
+
+
+.panel-mine > .panel-body > h3 {
+  color: rgb(69, 65, 50);
+}
+
+
+
+.panel-mine .panel-footer {
+  background: white;
+  border-color: none;
+  color: white;
+  background-color: white;
+}
+.panel-mine [class^="fa-"]:before,
+.panel-mine [class*=" fa-"]:before {
+  color: #7e775b;
+  margin-right: 5px;
+  background-color: white;
 }

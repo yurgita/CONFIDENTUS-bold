@@ -46,7 +46,14 @@ body {
   height: 100%;
 }
 #header,
-.parallax-bg1,
+.parallax-bg1 {
+  background-attachment: fixed;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-position: 40% 0;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
 .parallax-bg2,
 .parallax-bg3 {
   background-attachment: fixed;
