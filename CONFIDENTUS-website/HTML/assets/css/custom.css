@@ -1,3 +1,37 @@
+.gold-txt { color: #a77a00; }
+.conf-txt { color: #454132; }
+
+.linegradient {
+  background: white;
+  -webkit-box-shadow: 0 0 70px -1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 70px -1px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 0 70px -1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 70px -1px rgba(0, 0, 0, 0.1);
+  margin-top: 0px;
+  top: 0;
+}
+
+.newsfixed {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.grid-image {
+  height: 300px;
+}
+
+
+.containermine {
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.col-sm-4-mine {
+padding-left: 0px;
+padding-right: 6px;
+}
+
 body {padding-top: 50px; }
 
 @media screen and (max-width: 992px) {
@@ -8,12 +42,9 @@ h2 {
   padding-top: 80px;
 }
 
-#icon {
-  size: 40%;
-}
+
 #smallerh2 {
   padding-top: 20px;
-  color: rgb(69, 65, 50);
 }
 
 @media screen and (max-width: 992px) {
@@ -146,14 +177,13 @@ h2 {
 .navbar-fixed-top {
   position: fixed !important;
   background: white;
-  -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
-  -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 10 6px -8px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 10px 6px -8px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 0 10px -8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 6px -8px rgba(0, 0, 0, 0.1);
   margin-top: 0px;
   top: 0;
 }
-
 
 
 @media screen and (max-width: 992px) {
@@ -202,6 +232,12 @@ h2 {
   }
 }
 
+.panel-mine {
+  border: 0px solid transparent;
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
+
 
 .panel-mine > .panel-heading {
   border-color: none;
@@ -224,11 +260,5 @@ h2 {
   background: white;
   border-color: none;
   color: white;
-  background-color: white;
-}
-.panel-mine [class^="fa-"]:before,
-.panel-mine [class*=" fa-"]:before {
-  color: #7e775b;
-  margin-right: 5px;
   background-color: white;
 }

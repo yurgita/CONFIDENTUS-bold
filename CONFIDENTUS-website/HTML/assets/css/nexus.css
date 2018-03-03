@@ -1634,10 +1634,10 @@ ul.grid li:first-child a {
 .no-touch .portfolio-item figure:hover img,
 .portfolio-item figure.cs-hover img {
   bottom: 0px;
-  -webkit-transform: translate3d(-50px, 0px, 0px);
-  -moz-transform: translate3d(-50px, 0px, 0px);
-  -ms-transform: translate3d(-50px, 0px, 0px);
-  transform: translate3d(-50px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -ms-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
 }
 .no-touch .portfolio-item figure:hover figcaption,
 .portfolio-item figure.cs-hover figcaption {
