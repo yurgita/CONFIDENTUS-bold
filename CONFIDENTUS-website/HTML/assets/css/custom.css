@@ -1,6 +1,16 @@
 .gold-txt { color: #a77a00; }
 .conf-txt { color: #454132; }
 
+@font-face {
+  font-family: 'sansation';
+  src: url('../../assets/fonts/sansation_light-webfont.eot');
+  src: url('../../assets/fonts/sansation_light-webfont.eot?#iefix') format('embedded-opentype'), url('../../assets/fonts/sansation_light-webfont.woff') format('woff'), url('../../assets/fonts/sansation_light.ttf') format('truetype'), url('../../assets/fonts/sansation_light-webfont.svg') format('svg');
+}
+
+.chevron-circle-right p:after {
+  margin: 0 15px 0 0;
+}
+
 .linegradient {
   background: white;
   -webkit-box-shadow: 0 0 70px -1px rgba(0, 0, 0, 0.1);

@@ -37,7 +37,7 @@ html {
 }
 body {
   line-height: 1.7em;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'sansation', verdana;
   font-size: 16px;
   font-weight: 300;
   background-color: #474f5b;
@@ -1130,7 +1130,7 @@ h2 {
   line-height: 1em;
   margin: 0 0 10px;
   color: #555555;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'sansation', verdana;
   font-size: 32px;
 }
 h2.article-title {
@@ -1151,10 +1151,10 @@ h2.article-title:after {
   z-index: 0;
 }
 h3 {
-  font-size: 21px;
+  font-size: 19px;
   font-weight: 300;
   padding: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'sansation', verdana;
   margin: 0;
   color: #555555;
   opacity: 0.8;
@@ -2606,7 +2606,7 @@ ul.social-icons li a:hover {
   background: transparent url(../img/slimbox/nextlabel.gif) no-repeat 100% 15%;
 }
 #lbBottom {
-  font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
+  font-family: 'sansation', Verdana, Arial, Geneva, Helvetica, sans-serif;
   font-size: 10px;
   color: #666;
   line-height: 1.4em;
