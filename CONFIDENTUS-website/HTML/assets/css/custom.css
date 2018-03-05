@@ -7,9 +7,155 @@
   src: url('../../assets/fonts/sansation_light-webfont.eot?#iefix') format('embedded-opentype'), url('../../assets/fonts/sansation_light-webfont.woff') format('woff'), url('../../assets/fonts/sansation_light.ttf') format('truetype'), url('../../assets/fonts/sansation_light-webfont.svg') format('svg');
 }
 
-.chevron-circle-right p:after {
-  margin: 0 15px 0 0;
+@font-face {
+  font-family: 'sansation-bold';
+  src: url('../../assets/fonts/sansation_bold-webfont.eot');
+  src: url('../../assets/fonts/sansation_bold-webfont.eot?#iefix') format('embedded-opentype'), url('../../assets/fonts/sansation_bold-webfont.woff') format('woff'), url('../../assets/fonts/sansation_bold.ttf') format('truetype'), url('../../assets/fonts/sansation_bold-webfont.svg') format('svg');
 }
+
+.fa-chevron-circle-right {
+  margin: 0 10px 0 0;
+}
+
+@media (max-width: 767px) {
+  #header.bigparallax {
+    height: 10%;
+  }
+  }
+
+a.services {
+    display: block;
+    position: relative;
+    top: -500px;
+    visibility: hidden;
+
+}
+
+
+/* Bottom center text */
+.bottom-center {
+    position: absolute;
+    bottom: 120px;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+a#scroll-down {
+  color: white;
+}
+
+
+@-webkit-keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 29%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+@-moz-keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 29%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+@keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 29%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+ .scroll-btn {
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.scroll-btn > * {
+	display: inline-block;
+	line-height: 18px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #7f8c8d;
+	color: #ffffff;
+	font-family: 'sansation', Verdana;
+	letter-spacing: 2px;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *.active {
+	color: #ffffff;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *:active,
+.scroll-btn > *.active {
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+.scroll-btn .mouse {
+	position: relative;
+	display: block;
+	width: 32px;
+	height: 45px;
+	margin: 9px auto 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 2px solid white;
+	border-radius: 23px;
+}
+.scroll-btn .mouse > * {
+	position: absolute;
+	display: block;
+	top: 29%;
+	left: 50%;
+	width: 5px;
+	height: 5px;
+	margin: -4px 0 0 -4px;
+	background: white;
+	border-radius: 50%;
+	-webkit-animation: ani-mouse 2.5s linear infinite;
+	-moz-animation: ani-mouse 2.5s linear infinite;
+	animation: ani-mouse 2.5s linear infinite;}
+
+
 
 .linegradient {
   background: white;

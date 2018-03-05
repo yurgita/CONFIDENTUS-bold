@@ -22,6 +22,7 @@
         <link rel="stylesheet" href="assets/css/fontawesome-all.css" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" rel="stylesheet">
         <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        <script src="assets/js/smooth-scroll.polyfills.js"></script>
         <link rel="stylesheet" href="assets/css/nexus.css" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/responsive.css" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/custom.css" rel="stylesheet">
@@ -53,7 +54,7 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
               <li><a href="paslaugos.html" class="current">Paslaugos</a></li>
-              <li><a href="index.html" class="">Tinklas</a></li>
+              <li><a href="tinklas.html" class="">M&A Worldwide</a></li>
               <li><a href="blog-list.html" class="">Projektai</a></li>
               <li><a href="contact.html" class="">Kontaktai</a></li>
               <li>
@@ -70,30 +71,46 @@
     <!--/ Top Menu -->
 
         <!-- Header -->
-        <div id="header" style="background-position: 30% 0%; height:100%;" data-stellar-background-ratio="0.5">
+        <div id="header" class="bigparallax" style="background-position: 50% 0%; height:100%" data-stellar-background-ratio="0.5">
             <div class="container">
-              <div class="row margin-vert-40">
+              <div class="row margin-vert-20">
                     <!-- Slogan -->
                     <div class="col-md-12">
-                        <h2 class="big text-center ">Patikimi sprendimai įmonės kapitalo kilimui</h2>
-                        <br>
-                        <br>
+                        <h2 id="" class="big text-center">Patikimi sprendimai kapitalo vertei kilti</h2>
                     </div>
-                </div>
+              </div>
             </div>
-
+            <div class="bottom-center">
+              <span class="scroll-btn">
+                <a data-easing="linear" href="#services" id="scroll-down">
+                  <p>daugiau<br>
+                    <span class="mouse">
+                      <span>
+              			  </span>
+              		  </span>
+                  </p>
+                </a>
+              </span>
+            </div>
         </div>
+
         <!-- End Header -->
         <!-- === END HEADER === -->
         <!-- === BEGIN CONTENT === -->
+
         <div id="welcome" class="background-white" style="background-position: 50% 0%;" data-stellar-background-ratio="0.5">
             <div class="container">
                 <div class="row margin-vert-40">
                     <!-- Main Text -->
+                    <div id="services">
+                      <h3 style="padding-top: 100px; margin-top: -100px;"></h3>
+                    </div>
                     <div class="col-md-12">
-                      <h2 id="smallerh2" class="text-center smaller conf-txt">Paslaugos įmonėms</h2>
-                        <div class="row margin-vert-20"></div>
-                         <p class="text-center">
+
+                        <h2 id="smallerh2" class="text-center smaller conf-txt">Paslaugos įmonėms</h2>
+
+                      <div class="row margin-vert-20"></div>
+                      <p class="text-center">
                     </div>
                     <!-- Top Panels -->
                     <div class="row padding-top-20">
@@ -157,6 +174,7 @@
                   </div>
                 </div>
               </div>
+
               <div id="aboutus" class="linegradient background-white" style="background-position: 50% 0%;" data-stellar-background-ratio="0.5">
                 <div class="container">
                   <div class="row margin-vert-40">
@@ -181,8 +199,8 @@
                             </a>
                           </div>
                           <div class="col-md-3 text-center animate fadeInLeft">
-                            <a class="icons" href="" title="">
-                              <img src="assets\img\ma_worldwide_logo.png" alt="M&A Worldwide" />
+                            <a class="icons" href="tinklas.html" title="">
+                              <img src="assets\img\ma_worldwide_logo.png" alt="M&A Worldwide">
                             </a>
                           </div>
                           <div class="col-md-3 text-center animate fadeInRight">
@@ -220,7 +238,7 @@
                                       <div class="featured-info">
                                           <div class="info-wrapper">Tinklo "M&A Worldwide" susitikimas Barselonoje, 2017</div>
                                       </div>
-                                      <img class="newsfixed" alt="image1" src="assets\img\CF9E33D0-6870-4A4C-9E1B-34873C5D27DD.jpeg">
+                                      <img class="newsfixed" alt="image1" src="assets\img\MAWW Rainmaker summit Oct 2017.jpg">
                                   </div>
                               </figure>
                           </a>
@@ -335,6 +353,7 @@
             <!-- Modernizr -->
             <script src="assets/js/modernizr.custom.js" type="text/javascript"></script>
             <!-- End JS -->
+            <script>var scroll = new SmoothScroll('a[href*="#"]');</script>
     </body>
 </html>
 <!-- === END FOOTER === -->
