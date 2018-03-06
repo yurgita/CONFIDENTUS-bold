@@ -86,7 +86,7 @@ body {
 /* Header */
 /*-----------------------------------------------------------------------------------*/
 #header {
-  background: url("../img/header_bg.jpg") no-repeat fixed 0 0 rgba(0, 0, 0, 0);
+  background: url("../img/parallax-bg1.jpg") no-repeat fixed 0 0 rgba(0, 0, 0, 0);
   display: table;
   width: 100%;
 }
@@ -616,7 +616,7 @@ p.site-slogan {
   background-color: #000000;
 }
 .background-dark {
-  background-color: #04070C;
+  background-color: #454132;
 }
 .background-gray-darker {
   background-color: #222222;
@@ -2781,15 +2781,17 @@ ul.posts-list li {
 }
 .recent-post {
   margin-bottom: 20px;
+
 }
-.recent-post img {
-  padding-right: 10px;
-}
+
+
 .recent-post .recent-post-date {
   font-size: 11px;
+  margin-left: 10px;
 }
 .posts-list-title {
   font-size: 12px;
+  margin-left: 10px;
 }
 /*-----------------------------------------------------------------------------------*/
 /* Pages */
