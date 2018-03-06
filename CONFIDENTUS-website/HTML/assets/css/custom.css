@@ -13,6 +13,15 @@
   src: url('../../assets/fonts/sansation_bold-webfont.eot?#iefix') format('embedded-opentype'), url('../../assets/fonts/sansation_bold-webfont.woff') format('woff'), url('../../assets/fonts/sansation_bold.ttf') format('truetype'), url('../../assets/fonts/sansation_bold-webfont.svg') format('svg');
 }
 
+.mail-on-main {
+  color: white;
+}
+
+.mail-on-main:hover {
+  color: white;
+}
+
+
 #header.header-top-picture {
   background: url("../img/header_bg.jpg") no-repeat fixed 0 0 rgba(0, 0, 0, 0);
   display: table;
@@ -21,6 +30,12 @@
 
 #header.header-top-picture-2 {
   background: url("../img/header_bg_2.jpg") no-repeat fixed 0 0 rgba(0, 0, 0, 0);
+  display: table;
+  width: 100%;
+}
+
+#header.header-top-picture-3 {
+  background: url("../img/parallax-bg3.jpg") no-repeat fixed 0 0 rgba(0, 0, 0, 0);
   display: table;
   width: 100%;
 }
