@@ -13,6 +13,179 @@
   src: url('../../assets/fonts/sansation_bold-webfont.eot?#iefix') format('embedded-opentype'), url('../../assets/fonts/sansation_bold-webfont.woff') format('woff'), url('../../assets/fonts/sansation_bold.ttf') format('truetype'), url('../../assets/fonts/sansation_bold-webfont.svg') format('svg');
 }
 
+.label-primar-mine {
+  background-color: #454132;
+}
+
+.btn-default-mine {
+  color: #333333;
+  background-color: #f7f7f4;
+  border-color: #e7e5de;
+}
+.btn-default-mine:hover,
+.btn-default-mine:focus,
+.btn-default-mine:active,
+.btn-default-mine.active,
+.open .dropdown-toggle.btn-default-mine {
+  color: #333333;
+  background-color: #c6c1b0;
+  border-color: #beb8a5;}
+
+
+
+
+
+  .portfolio-item-mine {
+    overflow: hidden;
+    border-radius: 0px;
+    position: relative;
+    text-align: center;
+    vertical-align: text-top;
+    list-style: none outside none;
+    height: 180px;
+  }
+  .portfolio-item-mine figure {
+    border: 2px solid #e7e5de;
+    border-radius: 0px;
+    margin: 1px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    height: 175px;
+  }
+  .portfolio-item-mine figure img {
+    max-width: 97%;
+    left: 50%;
+    top: 50%;
+    display: block;
+    position: absolute;
+    z-index: 0;
+    -webkit-transform:translate(-50%, -50%);
+    -moz-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+    -o-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+
+  }
+  .portfolio-item-mine figcaption {
+    border-top: 5px solid #16181c;
+    color: #ffffff;
+    top: 0;
+    left: 0;
+    padding: 30px 40px;
+    background-color: #474f5b;
+    text-align: left;
+    text-transform: none;
+    position: relative;
+    z-index: 1;
+  }
+
+  .portfolio-filter {
+    margin: 0;
+    padding: 0px;
+  }
+  .portfolio-filter li {
+    list-style: none;
+    display: inline-block;
+    margin: 3px 0;
+  }
+  .portfolio-filter-label {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 11px 12px;
+  }
+  .no-touch .portfolio-item figure:hover img,
+  .portfolio-item figure.cs-hover img {
+    bottom: 0px;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -ms-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+  }
+  .no-touch .portfolio-item figure:hover figcaption,
+  .portfolio-item figure.cs-hover figcaption {
+    opacity: 1;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+  }
+  .portfolio-item figure .featured-info {
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    color: #e4e4e4;
+    font-weight: 300;
+    padding: 1.625em;
+    background: #454132;
+    background: rgba(31, 38, 51, 0.8);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    z-index: 5;
+    opacity: 0;
+  }
+  .portfolio-item figure .featured-info .info-wrapper {
+    width: 100%;
+    z-index: 10;
+  }
+  .portfolio-item figure:hover .featured-info {
+    opacity: 1;
+  }
+  .portfolio-item figure .featured-info::before,
+  .portfolio-item figure .featured-info::after {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  .portfolio-item figure .featured-info::before {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+  }
+  .portfolio-item figure .featured-info::after {
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+  }
+  .portfolio-item figure:hover .featured-info::before,
+  .portfolio-item figure:hover .featured-info::after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+
+
+
+
+
+
+
+
+
+
 .mail-on-main {
   color: white;
 }
@@ -39,6 +212,15 @@
   display: table;
   width: 100%;
 }
+
+#header.header-top-picture-4 {
+  background: url("../img/parallax-bg1-b.jpg") no-repeat fixed 0 0 rgba(0, 0, 0, 0);
+  display: table;
+  width: 100%;
+}
+
+
+
 
 h2.smaller-mine {
   font-size: 35px;
@@ -82,9 +264,9 @@ a.services {
 
 /* Bottom center text */
 .bottom-center {
-    position: absolute;
-    bottom: 120px;
-    left: 48%;
+    position: relative;
+    bottom: -10px;
+    left:43%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -152,19 +334,42 @@ a#scroll-down {
  .scroll-btn {
 	display: block;
 	position: absolute;
-	left: 0;
-	right: 0;
+	left: 50%;
+	right: 50%;
 	text-align: center;
 }
+
+@media screen and (max-width: 1000px) {
+  #scrollbtn {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+
+
+
+
+
 .scroll-btn > a > p {
- width: 60px;
+ width: 200px;
 }
 
 .scroll-btn > * {
 	display: inline-block;
 	line-height: 18px;
-	font-size: 12px;
-  width: 60px;
+	font-size: 13px;
+  width: 200px;
 	font-weight: normal;
 	color: #7f8c8d;
 	color: #ffffff;
@@ -188,7 +393,7 @@ a#scroll-down {
 	display: block;
 	width: 32px;
 	height: 45px;
-	margin: 9px auto 10px;
+	margin: 9px auto 0px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
