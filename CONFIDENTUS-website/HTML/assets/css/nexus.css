@@ -1,36 +1,4 @@
-/**
-* @template:  Boss
 
-TABLE OF CONTENTS
-
-	- Basic
-	- Header
-	- Footer
-	- Miscellaneous
-	- Utility Classes
-	- Typography
-	- Top Menu - Hornav
-	- Sidebar Menu
-	- Mobile Menu
-	- Blockquotes
-	- Font Awesome
-	- Glyphicons
-	- Portfolio
-	- Testimonials
-	- Accordions
-	- Tabs
-	- Progress Bars
-	- Panels
-	- Social Icons
-	- Carousel
-	- Thumbs Gallery
-	- Blog
-	- Pages
-
-*/
-/*-----------------------------------------------------------------------------------*/
-/* Basic */
-/*-----------------------------------------------------------------------------------*/
 html {
   overflow-y: scroll;
   height: 100%;
@@ -50,7 +18,7 @@ body {
   background-attachment: fixed;
   background-clip: border-box;
   background-origin: padding-box;
-  background-position: 50% 0;
+  background-position: 100% 0;
   background-repeat: no-repeat;
   background-size: cover !important;
 }

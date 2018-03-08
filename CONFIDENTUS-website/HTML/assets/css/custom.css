@@ -13,6 +13,10 @@
   src: url('../../assets/fonts/sansation_bold-webfont.eot?#iefix') format('embedded-opentype'), url('../../assets/fonts/sansation_bold-webfont.woff') format('woff'), url('../../assets/fonts/sansation_bold.ttf') format('truetype'), url('../../assets/fonts/sansation_bold-webfont.svg') format('svg');
 }
 
+#scrollbtn > a > p {
+  margin-top: 3px;
+}
+
 .label-primar-mine {
   background-color: #454132;
 }
@@ -53,8 +57,21 @@
     overflow: hidden;
     height: 175px;
   }
+
+  .portfolio-item-mine-profile figure {
+    border: 2px solid #e7e5de;
+    background-color:
+    border-radius: 0px;
+    margin: 1px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    height: 175px;
+  }
+
+
   .portfolio-item-mine figure img {
-    max-width: 97%;
+    max-width: 100%;
     left: 50%;
     top: 50%;
     display: block;
@@ -67,6 +84,25 @@
     transform:translate(-50%, -50%);
 
   }
+
+  .portfolio-item-mine-profile figure img {
+
+    left: 0%;
+    top: 0%;
+    max-width: auto;
+    height: 100%;
+    display: block;
+    position: relative;
+    z-index: 0;
+    -webkit-transform:translate(0%, 0%);
+    -moz-transform:translate(0%, 0%);
+    -ms-transform:translate(0%, 0%);
+    -o-transform:translate(0%, 0%);
+    transform:translate(0%, 0%);
+  }
+
+
+
   .portfolio-item-mine figcaption {
     border-top: 5px solid #16181c;
     color: #ffffff;
@@ -80,101 +116,6 @@
     z-index: 1;
   }
 
-  .portfolio-filter {
-    margin: 0;
-    padding: 0px;
-  }
-  .portfolio-filter li {
-    list-style: none;
-    display: inline-block;
-    margin: 3px 0;
-  }
-  .portfolio-filter-label {
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 10px;
-    padding: 11px 12px;
-  }
-  .no-touch .portfolio-item figure:hover img,
-  .portfolio-item figure.cs-hover img {
-    bottom: 0px;
-    -webkit-transform: translate3d(0px, 0px, 0px);
-    -moz-transform: translate3d(0px, 0px, 0px);
-    -ms-transform: translate3d(0px, 0px, 0px);
-    transform: translate3d(0px, 0px, 0px);
-  }
-  .no-touch .portfolio-item figure:hover figcaption,
-  .portfolio-item figure.cs-hover figcaption {
-    opacity: 1;
-    -webkit-transition: opacity 0.5s;
-    -moz-transition: opacity 0.5s;
-    transition: opacity 0.5s;
-  }
-  .portfolio-item figure .featured-info {
-    position: absolute;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
-    height: 100%;
-    color: #e4e4e4;
-    font-weight: 300;
-    padding: 1.625em;
-    background: #454132;
-    background: rgba(31, 38, 51, 0.8);
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
-    display: -webkit-flexbox;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    z-index: 5;
-    opacity: 0;
-  }
-  .portfolio-item figure .featured-info .info-wrapper {
-    width: 100%;
-    z-index: 10;
-  }
-  .portfolio-item figure:hover .featured-info {
-    opacity: 1;
-  }
-  .portfolio-item figure .featured-info::before,
-  .portfolio-item figure .featured-info::after {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    bottom: 10px;
-    left: 10px;
-    content: '';
-    opacity: 0;
-    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
-    transition: opacity 0.5s, transform 0.5s;
-  }
-  .portfolio-item figure .featured-info::before {
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    -webkit-transform: scale(0, 1);
-    transform: scale(0, 1);
-  }
-  .portfolio-item figure .featured-info::after {
-    border-right: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-    -webkit-transform: scale(1, 0);
-    transform: scale(1, 0);
-  }
-  .portfolio-item figure:hover .featured-info::before,
-  .portfolio-item figure:hover .featured-info::after {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
 
 
 
@@ -260,18 +201,23 @@ a.services {
     visibility: hidden;
 
 }
+.bigparallax {
+  position: relative;
+  height: 65%;
 
+}
 
 /* Bottom center text */
 .bottom-center {
-    position: relative;
-    bottom: -10px;
+    position: absolute;
     left:43%;
     transform: translate(-50%, -50%);
     text-align: center;
+    width: 300px;
+    bottom: 0px;
 }
 
-a#scroll-down {
+#scroll-down {
   color: white;
 
 }
@@ -434,6 +380,11 @@ a.anchor {
 .grid-image {
   height: 300px;
 }
+
+.grid-image-profile-services {
+  height: 170px;
+}
+
 
 
 .containermine {
@@ -754,4 +705,120 @@ border-bottom: 0px solid white;
  .text-lighter h2,
  .text-lighter p {
    color: white;
+ }
+
+.portfolio-item h3, h4 {
+  margin-bottom: -3px;
+  padding-bottom: -3px;
+  margin-top: -3px;
+  padding-top: -3px;
+}
+
+ .portfolio-item-profile {
+   overflow: hidden;
+   position: relative;
+ }
+
+ .portfolio-item-profile figure {
+   border: 2px solid #e7e5de;
+   border-radius: 0px;
+   margin: 1px;
+   padding: 0px;
+   position: relative;
+   overflow: hidden;
+ }
+ .portfolio-item-profile figure img {
+   object-fit: cover;
+   width: 100%
+   max-height: 100%;
+   display: block;
+   position: relative;
+   z-index: 0;
+   -webkit-transition: -webkit-transform 0.4s ease-out;
+   -moz-transition: -moz-transform 0.4s ease-out;
+   transition: transform 0.4s ease-out;
+   max-width: none;
+ }
+
+
+ .posts-list-title-whyus {
+   font-size: 15px;
+   margin-left: 10px;
+   color: #454132;
+   background-color: white;
+ }
+
+ .panel-title-whyus {
+   color: #454132;
+ }
+
+ .panel-whyus {
+   border-color: none;
+ }
+ .panel-whyus > .panel-heading {
+   color: #454132;
+   background-color: white;
+   border-color: none;
+ }
+ .panel-whyus > .panel-heading + .panel-collapse .panel-body {
+   border-top-color: none;
+ }
+ .panel-whyus > .panel-footer + .panel-collapse .panel-body {
+   border-bottom-color: none;
+ }
+
+ .panel-main-whyus {
+   background-color: white;
+ }
+
+ .panel-title-services {
+   color: #454132;
+ }
+
+ .panel-services {
+   border-color: none;
+ }
+ .panel-services > .panel-heading {
+   color: #454132;
+   background-color: white;
+   border-color: white;
+ }
+ .panel-services > .panel-heading + .panel-collapse .panel-body {
+   border-top-color: none;
+ }
+ .panel-services > .panel-footer + .panel-collapse .panel-body {
+   border-bottom-color: none;
+ }
+
+ .panel-main-services {
+   background-color: white;
+ }
+
+ .posts-list-title-services {
+   font-size: 15px;
+   margin-left: 10px;
+   color: #454132;
+   background-color: white;
+ }
+
+ .posts-list-title-services:hover {
+   color: #a77a00;
+ }
+ .active {
+   color: #a77a00;
+ }
+
+ .h3-services {
+   font-size: 32px;
+ }
+
+ .carousel.carousel-white img {
+   padding: 4px;
+   background: none;
+   box-shadow: 0 0 0;
+ }
+
+
+ .portfolio-item-mine-profile {
+   max-width: 220px;
  }
