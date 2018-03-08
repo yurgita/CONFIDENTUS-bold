@@ -822,3 +822,8 @@ border-bottom: 0px solid white;
  .portfolio-item-mine-profile {
    max-width: 220px;
  }
+
+ .header-contacts-mine {
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+ }
