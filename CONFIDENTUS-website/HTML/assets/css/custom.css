@@ -398,6 +398,10 @@ padding-left: 0px;
 padding-right: 6px;
 }
 
+.col-sm-4-mine > .featured-info, .info-wrapper {
+  font-size: 15pt;
+}
+
 body {padding-top: 50px; }
 
 @media screen and (max-width: 992px) {
@@ -825,5 +829,56 @@ border-bottom: 0px solid white;
 
  .header-contacts-mine {
    margin-bottom: 0px;
-   padding-bottom: 0px;
+   padding-bottom: 0px
  }
+
+
+ .simple-profile {
+   overflow: hidden;
+   position: relative;
+   max-width: 220px;
+ }
+ .simple-profile figure {
+   border: 2px solid #e7e5de;
+   border-radius: 0px;
+   margin: 1px;
+   padding: 0px;
+   position: relative;
+   overflow: hidden;
+   height: 175px;
+ }
+ .simple-profile figure img {
+   object-fit: cover;
+   height: 100%;
+
+   display: block;
+   position: absolute;
+ }
+
+ .mini-picture {
+   height: 55px;
+   width: 60px;
+   overflow: hidden;
+   position: relative;
+ }
+
+ .mini-picture img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+.posts-list-title-mine {
+  font-size: 11pt;
+  margin-left: 8px;
+}
+
+.recent-post-date-mine {
+  font-size: 10pt;
+  margin-left: 8px;
+}
