@@ -420,6 +420,10 @@ a.anchor {
   height: 300px;
 }
 
+.grid-image-inner {
+  height: 200px;
+}
+
 .grid-image-profile-services {
   height: 170px;
 }
