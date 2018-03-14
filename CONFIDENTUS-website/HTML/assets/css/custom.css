@@ -987,6 +987,9 @@ border-bottom: 0px solid white;
 .tabs .tab-content-mine {
   background-color: #FFF;
   border: 1px solid #efefe9;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 0px;
 }
 
 #tab-business-case {
@@ -1082,4 +1085,18 @@ height: 100%;
 }
 .posts-list-services-icons.active {
   color: #a77a00;
+}
+
+.fa-1x {
+  font-size: 17pt;
+  margin-right: 7pt;
+
+}
+
+.small-margin {
+margin-right: 3pt;
+}
+
+.number-values {
+  font-size: 20pt;
 }
