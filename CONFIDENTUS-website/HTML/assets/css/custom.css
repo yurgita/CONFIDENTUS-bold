@@ -1060,3 +1060,26 @@ left: 0;
 width: 100%;
 height: 100%;
 }
+
+
+.icon-gold-hoover :hover{
+  color: #a77a00;
+}
+
+.fa-2x {
+  padding-right: 7px;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.posts-list-services-icons {
+  font-size: 15px;
+  color: #454132;
+}
+
+.posts-list-services-icons:hover {
+  color: #a77a00;
+}
+.posts-list-services-icons.active {
+  color: #a77a00;
+}
