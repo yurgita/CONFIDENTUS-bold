@@ -10,7 +10,7 @@ body {
   font-weight: 300;
   background-color: #474f5b;
   background-color: #FFFFFF;
-  color: #656565;
+  color: #454132;
   height: 100%;
 }
 #header,
@@ -1319,7 +1319,7 @@ blockquote.bg-primary {
 }
 .menu li [class^="fa-"]:before,
 .menu li [class*=" fa-"]:before {
-  color: rgba(0, 0, 0, 0.2);
+  color: #454132;
   font-size: 18px;
   position: absolute;
   top: 13px;
@@ -1332,7 +1332,7 @@ blockquote.bg-primary {
 }
 .menu li a:hover[class^="fa-"]:before,
 .menu li a:hover[class*=" fa-"]:before {
-  color: rgba(0, 0, 0, 0.1);
+  color: #454132;
 }
 /* Top Menu Icons */
 #hornav li [class^="fa-"]:before,
@@ -1351,13 +1351,13 @@ blockquote.bg-primary {
 .header-1 .menu li [class*=" fa-"]:before,
 .header-2 .menu li [class^="fa-"]:before,
 .header-2 .menu li [class*=" fa-"]:before {
-  color: rgba(0, 0, 0, 0.2);
+  color: #454132;
   top: 1px;
 }
 /* Base Module Icons */
 #base [class^="fa-"]:before,
 #base [class*=" fa-"]:before {
-  color: rgba(255, 255, 255, 0.2);
+  color: #454132;
 }
 /* Footer Menu Icons */
 #footermenu li [class^="fa-"]:before,

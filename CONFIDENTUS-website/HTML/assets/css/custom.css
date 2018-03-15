@@ -62,10 +62,6 @@
   background-color: #c6c1b0;
   border-color: #beb8a5;}
 
-
-
-
-
   .portfolio-item-mine {
     overflow: hidden;
     border-radius: 0px;
@@ -686,7 +682,28 @@ h2 {
 .col-mine {
   background-color: white;
   border-color: none;
+  padding-left: 60px;
 }
+
+@media only screen and (max-width: 440px) {
+  .col-mine {padding-left: 20px;}
+
+}
+
+.google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
 
 #form-mine label {
   font-family: 'sansation', verdana;
@@ -1118,5 +1135,11 @@ margin-right: 7pt;
 }
 
 #box1 {
-  margin-bottom: 22px; 
+  margin-bottom: 22px;
+}
+
+
+.padding {
+margin-right: 8px;
+font-size: 11pt;
 }
