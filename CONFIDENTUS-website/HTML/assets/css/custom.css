@@ -879,7 +879,7 @@ border-bottom: 0px solid white;
  .simple-profile {
    overflow: hidden;
    position: relative;
-   max-width: 220px;
+   max-width: 180px;
  }
  .simple-profile figure {
    border: 2px solid #e7e5de;
@@ -888,15 +888,19 @@ border-bottom: 0px solid white;
    padding: 0px;
    position: relative;
    overflow: hidden;
-   height: 175px;
+   height: 155px;
  }
  .simple-profile figure img {
    object-fit: cover;
    height: 100%;
-
    display: block;
    position: absolute;
+   float: left;
  }
+
+ .picture_top {
+    display: table-cell;
+}
 
  .mini-picture {
    height: 55px;
@@ -1076,7 +1080,7 @@ height: 100%;
 }
 
 .posts-list-services-icons {
-  font-size: 15px;
+  font-size: 14px;
   color: #454132;
 }
 
@@ -1094,9 +1098,25 @@ height: 100%;
 }
 
 .small-margin {
-margin-right: 3pt;
+margin-right: 7pt;
 }
 
 .number-values {
   font-size: 20pt;
+}
+
+.h3diferent {
+  font-size: 12px;
+}
+
+#kristupas-profile img {
+  float: left;
+}
+
+.profile-text {
+  margin-right: 15pt;
+}
+
+#box1 {
+  margin-bottom: 22px; 
 }
