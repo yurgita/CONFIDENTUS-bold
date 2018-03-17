@@ -943,30 +943,35 @@ p.site-slogan {
   padding: 0.5em 0.7em;
   line-height: 1.125em;
   cursor: pointer;
+
 }
 .slicknav_menu .slicknav_menutxt {
   display: block;
-  line-height: 1.188em;
+  line-height: 2em;
   float: left;
+
 }
 .slicknav_menu .slicknav_icon {
   float: left;
-  margin: 0.188em 0 0 0.438em;
+  margin: 0.2em 0 0 0.2em;
 }
+
 .slicknav_menu .slicknav_no-text {
   margin: 0;
+
 }
 .slicknav_menu .slicknav_icon-bar {
   font-size: 18px;
   display: block;
-  width: 1.125em;
-  height: 0.125em;
+  width: 1.2em;
+  height: 0.17em;
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
   border-radius: 1px;
   -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+
 }
 .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
   margin-top: 0.188em;
@@ -1009,8 +1014,11 @@ p.site-slogan {
     Change the following styles to modify the appearance of the menu.
 */
 .slicknav_menu {
-  font-size: 18px;
+  font-size: 15px;
+  border: 1px solid #f7f7f4;
 }
+
+
 /* Button */
 .slicknav_btn {
   margin: 5px 5px 6px;
@@ -1018,60 +1026,69 @@ p.site-slogan {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: white;
+
 }
 /* Button Text */
 .slicknav_menu .slicknav_menutxt {
-  color: #FFF;
+  display: none;
+  color: #454132;
   font-weight: bold;
+
 }
 /* Button Lines */
 .slicknav_menu .slicknav_icon-bar {
-  background-color: #f5f5f5;
+  background-color: #454132;
 }
 .slicknav_menu {
-  background: #474f5b;
+  background: white;
   padding: 5px;
+
+
 }
 .slicknav_nav {
-  color: #fff;
+  color: #454132;
   margin: 0;
   padding: 0;
+  border-top: 1px solid #dfdcd2;
+
 }
 .slicknav_nav,
 .slicknav_nav ul {
   list-style: none;
   overflow: hidden;
+
 }
 .slicknav_nav .slicknav_item {
   padding: 14px;
   margin: 2px 0px;
+
 }
 .slicknav_nav a {
   padding: 14px;
   margin: 2px 0px;
   text-decoration: none;
-  color: #fff;
+  color: #454132;
 }
 .slicknav_nav ul {
   padding: 0;
   margin: 0;
 }
 .slicknav_nav li {
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: white;
   border-radius: 4px;
-  color: #ffffff;
+  color: #454132;
 }
 .slicknav_nav li li {
-  background-color: rgba(255, 255, 255, 0.03);
+  background-color: white;
   text-indent: 10px;
 }
 .slicknav_nav li li li {
-  background-color: rgba(255, 255, 255, 0.03);
+  background-color: white;
   text-indent: 20px;
 }
 .slicknav_nav li li a {
-  color: #ffffff;
+  color: #454132;
 }
 .slicknav_nav .slicknav_item a {
   padding: 0;
@@ -1081,11 +1098,12 @@ p.site-slogan {
 .slicknav_nav .slicknav_item:hover,
 .slicknav_nav a:focus,
 .slicknav_nav .slicknav_item:focus {
-  background-color: rgba(0, 0, 0, 0.2) !important;
-  color: #ffffff;
+  background-color: white !important;
+  color: #a77a00;
 }
 .slicknav_nav .slicknav_txtnode {
   margin-left: 15px;
+
 }
 /*-----------------------------------------------------------------------------------*/
 /* Typo */
