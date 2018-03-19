@@ -22,49 +22,44 @@
         <link rel="stylesheet" href="../assets/css/nexus.css" rel="stylesheet">
         <link rel="stylesheet" href="../assets/css/responsive.css" rel="stylesheet">
         <link rel="stylesheet" href="../assets/css/custom.css" rel="stylesheet">
+        <script src="../assets/js/jquery.slicknav.min.js"></script>
         <!-- Google Fonts-->
         <link href="http://fonts.googleapis.com/css?family=Raleway:100,300,400" type="text/css" rel="stylesheet">
         <link href="http://fonts.googleapis.com/css?family=Roboto:400,300" type="text/css" rel="stylesheet">
     </head>
 
     <body>
-
-
       <!-- Top Menu -->
-    <header role="banner" id="fh5co-header">
-      <div class="fluid-container">
-        <nav id="" class="navbar-default navbar-fixed-top">
-          <div class="navbar-header">
-            <a href="../index.html" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse"
-            data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            <a class="navbar-brand" href="../index.html" title="CONFIDENTUS">
-              <img src="..\assets\img\CONFIDENTUS-logo.png" alt="Logo" />
-            </a>
+      <div id="" class="navbar-fixed-top">
+        <div class="container background-white">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 text-center">
+                <div class="navbar-header">
+                  <a class="logo" href="..\index.html" title="CONFIDENTUS">
+                    <img src="..\assets\img\CONFIDENTUS-logo.png" alt="Logo" />
+                  </a>
+                </div>
+              </div>
+                <div class="col-lg-7 col-md-7 text-right">
+                  <ul id="menu" class="nav navbar-nav navbarmine">
+                    <li><a href="..\paslaugos.html" class="">Paslaugos</a></li>
+                    <li><a href="..\tinklas.html" class="">M&A Worldwide</a></li>
+                    <li><a href="..\projektai.html" class="">Projektai</a></li>
+                    <li><a href="..\kontaktai.html" class="">Kontaktai</a></li>
+                    <li>
+                      <a>
+                        <select class="selectpicker" data-width="fit">
+                          <option>EN</option>
+                          <option>LT</option>
+                        </select>
+                      </a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
           </div>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li><a href="../paslaugos.html" class="">Paslaugos</a></li>
-              <li><a href="../tinklas.html" class="">M&A Worldwide</a></li>
-              <li><a href="../projektai.html" class="">Projektai</a></li>
-              <li><a href="../kontaktai.html" class="">Kontaktai</a></li>
-              <li>
-                <select class="selectpicker" data-width="fit">
-                  <option>EN</option>
-                  <option>LT</option>
-                </select>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </header>
+        </div>
+        <!--/ Top Menu -->
 
     <div id="header" class="header-top-picture-IT-review" style="background-position: 30% 0%; height:auto;" data-stellar-background-ratio="0.5">
         <div class="container">
@@ -231,6 +226,7 @@
             <script type="text/javascript" src="../assets/js/jquery.isotope.js" type="text/javascript"></script>
             <!-- Mobile Menu - Slicknav -->
             <script type="text/javascript" src="../assets/js/jquery.slicknav.js" type="text/javascript"></script>
+            <script type="text/javascript" src="../assets/js/jquery.slicknav.min.js" type="text/javascript"></script>
             <!-- Animate on Scroll-->
             <script type="text/javascript" src="../assets/js/jquery.visible.js" charset="utf-8"></script>
             <!-- Stellar Parallax -->
@@ -243,6 +239,16 @@
             <script src="../assets/js/modernizr.custom.js" type="text/javascript"></script>
             <!-- End JS -->
             <script>var scroll = new SmoothScroll('a[href*="#"]');</script>
+            <script>
+            	$(function(){
+            		$('#menu').slicknav();
+            	});
+            </script>
+            <script type="text/javascript">
+              $(document).ready(function(){
+                $('.slicknav_menu').prepend('<a href="../index.html"><img class="logo" src="../assets/img/CONFIDENTUS-logo.png" alt="Website Logo" /></a>');
+              });
+            </script>
     </body>
 </html>
 <!-- === END FOOTER === -->

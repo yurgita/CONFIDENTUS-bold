@@ -505,7 +505,7 @@ h2 {
 
  .navbar-brand  {
      display: inline-block;
-     vertical-align: top;
+     vertical-align: center;
      margin-left: 0px;
      margin-right: 0px;
 
@@ -545,8 +545,9 @@ h2 {
 
 
 #fh5co-header .navbar-header {
-  padding-bottom: 0;
+  padding-top: 40px;
   margin-bottom: 0;
+  width: auto;
 
 }
 
@@ -1156,8 +1157,69 @@ font-size: 11pt;
 }
 
 .logo {
-float: left;
-width: 240px;/*jei parasysi procentais, logas dides/mazes*/
+float: center;
+width: 220px;/*jei parasysi procentais, logas dides/mazes*/
 height: auto;
-padding:1em;/*uzdeda is visu pusiu, ir ant jo nebeuzlipa ikona*/
+padding-top: 1em;/*uzdeda is visu pusiu, ir ant jo nebeuzlipa ikona*/
+padding-bottom: 1em;
+position: relative;
+}
+
+.mainicon {
+  padding-left: 20px;
+  width: auto;
+}
+
+.navbar-header {
+  width: auto;
+  padding-top:20px;
+  padding-left:0;
+  margin-left: 0;
+}
+
+#menu {
+  font-size: 10pt;
+  float: left; <--!demesio!!!!-->
+}
+
+#menu li>a:hover {
+  background-color: white;
+  color: #a77a00;
+}
+#menu li>a.current {
+  color: #a77a00;
+}
+
+
+#menu li>a>select:hover {
+  background-color: white;
+  border-color: #a77a00;
+  color: #454132;
+}
+
+.navbarmine {
+  padding-top:20px;
+}
+
+
+.maincontent {
+  padding-left: 18px;
+}
+@media screen and (max-width: 992px)  {
+  .maincontent {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (min-width: 992px){
+.vizitine {
+  width: 500px;
+  border: 1px solid #cecabc;
+}
+.vizitine img {
+  padding-left:20px;
+}
+hr {
+  display: none;
+}
 }
