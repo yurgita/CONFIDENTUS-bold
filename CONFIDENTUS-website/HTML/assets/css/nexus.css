@@ -13,23 +13,32 @@ body {
 }
 #header,
 .parallax-bg1 {
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-clip: border-box;
   background-origin: padding-box;
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover !important;
-  height: 56%;
+  webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height:56%;
+    width:100%;
 }
 
 .parallax-bg2,
 .parallax-bg3 {
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-clip: border-box;
   background-origin: padding-box;
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover !important;
+  webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height:56%;
+    width:100%;
 }
 .container {
   max-width: 1080px;

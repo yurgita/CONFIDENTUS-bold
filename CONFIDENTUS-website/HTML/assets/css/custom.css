@@ -147,37 +147,37 @@ a[href^="tel"] {
 }
 
 .header-top-picture {
-  background: url("../img/header_bg.jpg") no-repeat fixed 0 0 rgba(0, 0, 0, 0);
+  background: url("../img/header_bg.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
   display: table;
   width: 100%;
 }
 
 .header-top-picture-2 {
-  background: url("../img/header_bg_2.jpg") no-repeat fixed 0 0 rgba(0, 0, 0, 0);
+  background: url("../img/header_bg_2.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
   display: table;
   width: 100%;
 }
 
 .header-top-picture-3 {
-  background: url("../img/parallax-bg3.jpg") no-repeat fixed 0 0 rgba(0, 0, 0, 0);
+  background: url("../img/parallax-bg3.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
   display: table;
   width: 100%;
 }
 
 .header-top-picture-4 {
-  background: url("../img/parallax-bg1-b.jpg") no-repeat fixed 0 0 rgba(0, 0, 0, 0);
+  background: url("../img/parallax-bg1-b.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
   display: table;
   width: 100%;
 }
 
 .header-top-picture-ACQ5 {
-  background: url("../img/ACQ5-global-awards-2017.jpg") no-repeat fixed 0 0 rgba(0, 0, 0, 0);
+  background: url("../img/ACQ5-global-awards-2017.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
   display: table;
   width: 100%;
 }
 
 .header-top-picture-IT-review {
-  background: url("../img/M&A-worldwide-bridge-5.jpg") no-repeat fixed 0 0 rgba(0, 0, 0, 0);
+  background: url("../img/M&A-worldwide-bridge-5.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
   display: table;
   width: 100%;
 }
@@ -894,7 +894,7 @@ font-size: 11pt;
 float: left;
 width: 200px;/*jei parasysi procentais, logas dides/mazes*/
 height: auto;
-padding-top: 50px;/*uzdeda is visu pusiu, ir ant jo nebeuzlipa ikona*/
+padding-top: 40px;/*uzdeda is visu pusiu, ir ant jo nebeuzlipa ikona*/
 padding-bottom: ;
 position: relative;
 }
@@ -902,6 +902,7 @@ position: relative;
 .moblog {
   float: left;
   width: 40%;/*jei parasysi procentais, logas dides/mazes*/
+  max-width: 200px;
 
   height: auto;
   padding-top: 15px;
@@ -932,7 +933,7 @@ position: relative;
 }
 
 .navbarmine {
-  padding-top:30px;
+  padding-top:20px;
 }
 
 
