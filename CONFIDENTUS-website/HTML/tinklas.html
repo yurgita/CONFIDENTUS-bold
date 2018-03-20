@@ -35,13 +35,13 @@
         <div class="container background-white">
           <div class="row">
             <div class="col-lg-3 col-md-3 text-center">
-                <div class="navbar-header">
-                  <a class="logo" href="index.html" title="CONFIDENTUS">
+                <div class="navbar-header navbarheadstyle">
+                  <a class="confidentuslogo" href="index.html" title="CONFIDENTUS">
                     <img src="assets\img\CONFIDENTUS-logo.png" alt="Logo" />
                   </a>
                 </div>
               </div>
-                <div class="col-lg-7 col-md-7 text-right">
+                <div class="col-lg-9 col-md-9 text-right">
                   <ul id="menu" class="nav navbar-nav navbarmine">
                     <li><a href="paslaugos.html" class="">Paslaugos</a></li>
                     <li><a href="tinklas.html" class="current">M&A Worldwide</a></li>
@@ -63,12 +63,12 @@
         <!--/ Top Menu -->
 
     <!-- Header -->
-    <div id="header" class="header-top-picture-IT-review" style="background-position: 30% 0%; height:auto;" data-stellar-background-ratio="0.5">
+    <div id="header" class="header-top-picture-IT-review" style="background-position: 40% 0%; height:25%;" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row margin-vert-40">
                 <!-- Slogan -->
                 <div class="col-md-12">
-                    <h2 class="smaller-mine text-center heading-text-mine">Tarptautiniai sandoriai</h2>
+                    <h2 class="smaller-mine text-center">Tarptautiniai sandoriai</h2>
                 </div>
           </div>
         </div>
@@ -98,8 +98,12 @@
                   <div class="col-md-9">
                       <div class="portfolio-item margin-bottom-40 video-container">
                         <a href="#">
+                          <object>
+                            <param name="movie" value="https://vimeo.com/181592054"></param>
+                            <embed src="https://vimeo.com/181592054" type="application/x-shockwave-flash"></embed>
                           <iframe src="https://player.vimeo.com/video/181592054" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                           <p><a href="https://vimeo.com/181592054">M&amp;A Worldwide - Trumpas organizacijos pristatymas</a></p>
+                        </object>
                         </a>
                       </div>
                   </div>
@@ -189,15 +193,15 @@
             <!-- End JS -->
             <script>var scroll = new SmoothScroll('a[href*="#"]');</script>
             <script>
-            	$(function(){
-            		$('#menu').slicknav();
-            	});
-            </script>
-            <script type="text/javascript">
-              $(document).ready(function(){
-                $('.slicknav_menu').prepend('<a href="index.html"><img class="logo" src="assets/img/CONFIDENTUS-logo.png" alt="Website Logo" /></a>');
+              $(function(){
+                $('#menu').slicknav();
               });
+              </script>
+            <script>
+            $(document).ready(function(){
+              $('.slicknav_menu').prepend('<a href="index.html"><img class="moblog" src="assets/img/CONFIDENTUS-logo.png" /></a>');
+            });
             </script>
     </body>
-</html>
-<!-- === END FOOTER === -->
+    </html>
+    <!-- === END FOOTER === -->

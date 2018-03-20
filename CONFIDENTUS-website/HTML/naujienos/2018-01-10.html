@@ -22,7 +22,7 @@
         <link rel="stylesheet" href="../assets/css/nexus.css" rel="stylesheet">
         <link rel="stylesheet" href="../assets/css/responsive.css" rel="stylesheet">
         <link rel="stylesheet" href="../assets/css/custom.css" rel="stylesheet">
-        <script src="../assets/js/jquery.slicknav.min.js"></script>
+
         <!-- Google Fonts-->
         <link href="http://fonts.googleapis.com/css?family=Raleway:100,300,400" type="text/css" rel="stylesheet">
         <link href="http://fonts.googleapis.com/css?family=Roboto:400,300" type="text/css" rel="stylesheet">
@@ -34,13 +34,13 @@
         <div class="container background-white">
           <div class="row">
             <div class="col-lg-3 col-md-3 text-center">
-                <div class="navbar-header">
-                  <a class="logo" href="..\index.html" title="CONFIDENTUS">
+                <div class="navbar-header navbarheadstyle">
+                  <a class="confidentuslogo" href="..\index.html" title="CONFIDENTUS">
                     <img src="..\assets\img\CONFIDENTUS-logo.png" alt="Logo" />
                   </a>
                 </div>
               </div>
-                <div class="col-lg-7 col-md-7 text-right">
+                <div class="col-lg-9 col-md-9 text-right">
                   <ul id="menu" class="nav navbar-nav navbarmine">
                     <li><a href="..\paslaugos.html" class="">Paslaugos</a></li>
                     <li><a href="..\tinklas.html" class="">M&A Worldwide</a></li>
@@ -61,7 +61,7 @@
         </div>
         <!--/ Top Menu -->
 
-    <div id="header" class="header-top-picture-IT-review" style="background-position: 30% 0%; height:auto;" data-stellar-background-ratio="0.5">
+    <div id="header" class="header-top-picture-IT-review" style="background-position: 30% 0%; height:25%;" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row margin-vert-40">
                 <!-- Slogan -->
@@ -100,7 +100,7 @@
                       </div>
                         <p>Šiuo metu tinklas „M&A Worldwide“ vienija 40 kompanijų 38 šalyse, ir tai yra daugiau nei
                           200 ekspertų ekonomiškai reikšmingiausiuose pasaulio regionuose. 2016 metais organizacijos
-                          nariai įvykdė 641 sandorius, kurių bendra vertė sudarė 3,1 billijonus eurų.
+                          nariai įvykdė 641 sandorius, kurių bendra vertė sudarė 3,1 milijardus eurų.
                         </p>
                         <p>Kitas „M&A Worldwide“ tinklo narių susitikimas įvyks 2018 m. balandžio mėnesį Amsterdame (Olandija).
                         <a class="gold-txt" target="_blank" href="https://m-a-worldwide.com/conventions/">Daugiau apie M&A worldwide...</a></p>
@@ -248,15 +248,16 @@
             <!-- End JS -->
             <script>var scroll = new SmoothScroll('a[href*="#"]');</script>
             <script>
-            	$(function(){
-            		$('#menu').slicknav();
-            	});
-            </script>
-            <script type="text/javascript">
-              $(document).ready(function(){
-                $('.slicknav_menu').prepend('<a href="../index.html"><img class="logo" src="../assets/img/CONFIDENTUS-logo.png" alt="Website Logo" /></a>');
+              $(function(){
+                $('#menu').slicknav();
               });
+              </script>
+            <script>
+            $(document).ready(function(){
+              $('.slicknav_menu').prepend('<a href="index.html"><img class="moblog" src="../assets/img/CONFIDENTUS-logo.png" /></a>');
+            });
             </script>
+
     </body>
 </html>
 <!-- === END FOOTER === -->

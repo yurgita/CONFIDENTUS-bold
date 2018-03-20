@@ -22,7 +22,7 @@
         <link rel="stylesheet" href="../assets/css/nexus.css" rel="stylesheet">
         <link rel="stylesheet" href="../assets/css/responsive.css" rel="stylesheet">
         <link rel="stylesheet" href="../assets/css/custom.css" rel="stylesheet">
-        <script src="../assets/js/jquery.slicknav.min.js"></script>
+
         <!-- Google Fonts-->
         <link href="http://fonts.googleapis.com/css?family=Raleway:100,300,400" type="text/css" rel="stylesheet">
         <link href="http://fonts.googleapis.com/css?family=Roboto:400,300" type="text/css" rel="stylesheet">
@@ -34,13 +34,13 @@
         <div class="container background-white">
           <div class="row">
             <div class="col-lg-3 col-md-3 text-center">
-                <div class="navbar-header">
-                  <a class="logo" href="..\index.html" title="CONFIDENTUS">
+                <div class="navbar-header navbarheadstyle">
+                  <a class="confidentuslogo" href="..\index.html" title="CONFIDENTUS">
                     <img src="..\assets\img\CONFIDENTUS-logo.png" alt="Logo" />
                   </a>
                 </div>
               </div>
-                <div class="col-lg-7 col-md-7 text-right">
+                <div class="col-lg-9 col-md-9 text-right">
                   <ul id="menu" class="nav navbar-nav navbarmine">
                     <li><a href="..\paslaugos.html" class="current">Paslaugos</a></li>
                     <li><a href="..\tinklas.html" class="">M&A Worldwide</a></li>
@@ -61,7 +61,7 @@
         </div>
         <!--/ Top Menu -->
     <!-- Header -->
-        <div id="header" class="header-top-picture" style="background-position: 30% 0%; height:auto;" data-stellar-background-ratio="0.5">
+        <div id="header" class="header-top-picture" style="background-position: 30% 0%; height:25%;" data-stellar-background-ratio="0.5">
             <div class="container">
               <div class="row margin-vert-40">
                     <!-- Slogan -->
@@ -82,7 +82,7 @@
                   <!-- Main Column -->
                   <div id="box1" class="col-md-9 col-md-push-3 padding-left-0 padding-right-0">
                           <!-- Main Content -->
-                          <div class="maincontent animate fadeInRight">
+                          <div class="animate fadeInRight">
                             <p>Turime sukaupę didelę patirtį vertinti skirtingas bendroves: nuo didžiausių įmonių grupių,
                               veikiančių Lietuvoje, iki smulkių ir vidutinių verslų. Verslo vertinimą atliekame mažiausiai
                               dviem skirtingais metodais. Vertindami verslą, nuosavą kapitalą ar jų dalis (akcijų paketus),
@@ -115,7 +115,7 @@
 
                           <!-- Main Content End-->
                           <!-- Profile -->
-                          <div class="maincontent vizitine">
+                          <div class="vizitine">
                             <table>
                               <tr>
                                 <td>
@@ -135,7 +135,7 @@
                                   </p>
                                   <ul class=" text-photo list-unstyled margin-top-0 padding-top-0">
                                     <li>
-                                      <i class="fas fa-phone conf-txt padding"></i>+370-687-73-228</li>
+                                      <i class="fas fa-mobile-alt conf-txt padding"></i>+370-687-73-228</li>
                                     <li>
                                       <i class="fas fa-envelope conf-txt padding"></i><a href="mailto:marija@confidentus.eu">marija@confidentus.eu</a></li>
                                     <li>
@@ -277,15 +277,16 @@
             <!-- End JS -->
             <script>var scroll = new SmoothScroll('a[href*="#"]');</script>
             <script>
-            	$(function(){
-            		$('#menu').slicknav();
-            	});
-            </script>
-            <script type="text/javascript">
-              $(document).ready(function(){
-                $('.slicknav_menu').prepend('<a href="../index.html"><img class="logo" src="../assets/img/CONFIDENTUS-logo.png" alt="Website Logo" /></a>');
+              $(function(){
+                $('#menu').slicknav();
               });
+              </script>
+            <script>
+            $(document).ready(function(){
+              $('.slicknav_menu').prepend('<a href="index.html"><img class="moblog" src="../assets/img/CONFIDENTUS-logo.png" /></a>');
+            });
             </script>
+
     </body>
 </html>
 <!-- === END FOOTER === -->

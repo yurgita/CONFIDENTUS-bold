@@ -756,6 +756,11 @@ pre code {
     width: 760px;
   }
 }
+@media (min-width: 768px) {
+  .container {
+    width: 760px;
+  }
+}
 @media (min-width: 992px) {
   .container {
     width: 980px;
@@ -766,6 +771,8 @@ pre code {
     width: 1180px;
   }
 }
+
+
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
@@ -3660,10 +3667,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-radius: 5px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-header {
     float: left;
-    height: 106px;
   }
 }
 .navbar-collapse {

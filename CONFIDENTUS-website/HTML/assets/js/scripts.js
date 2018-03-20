@@ -136,10 +136,8 @@ $(function () {
 });
 
 // Mobile Menu
-$(function(){
-    $('#hornavmenu').slicknav();
-    $( "div.slicknav_menu" ).addClass( "hidden-lg" );
-});
+
+
 
 // Stellar Parallax
 $(function(){
