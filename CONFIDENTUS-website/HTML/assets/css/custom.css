@@ -1020,7 +1020,7 @@ hr {
   width: 200px;
 }
 
-@media screen and (max-width: 991px)  {
+@media screen and (max-width: 480px)  {
 #scroll-down {
   display: none;
 }
@@ -1037,6 +1037,12 @@ hr {
 
 .newsimagebig {
   margin-bottom:7px;
+}
+
+@media screen and (max-width: 767px)  {
+.newsiamgesmall {
+  margin-bottom:7px;
+}
 }
 
 
@@ -1098,4 +1104,11 @@ hr {
 h3 br {
   display: none;
 }
+}
+
+@media screen and (max-width: 700px) {
+.not-active {
+  pointer-events: none;
+  cursor: default;
+  text-decoration:none;
 }
