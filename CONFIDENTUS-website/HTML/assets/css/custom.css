@@ -817,11 +817,7 @@ height: 100%;
   color: #a77a00;
 }
 
-.fa-2x {
-  padding-right: 7px;
-  padding-left: 0px;
-  margin-left: 0px;
-}
+
 
 .posts-list-services-icons {
   font-size: 14px;
@@ -838,7 +834,12 @@ height: 100%;
 .fa-1x {
   font-size: 17pt;
   margin-right: 7pt;
+}
 
+.fa-2x {
+  padding-right: 7px;
+  padding-left: 0px;
+  margin-left: 0px;
 }
 
 .small-margin {
@@ -853,42 +854,10 @@ margin-right: 7pt;
   font-size: 12px;
 }
 
-#kristupas-profile img {
-  float: left;
-}
 
-.profile-text {
-  margin-right: 15pt;
-}
-
-#box1 {
-  margin-bottom: 22px;
-}
-
-
-.padding {
-margin-right: 8px;
-font-size: 11pt;
-}
-
-
-@media only screen and (min-width: 993px) {
-.js .slicknav_menu {
-	display:none;
-}
-}
-
-
-@media only screen and (max-width: 992px) {
-
-  .navbar-fixed-top {
-    display:none;
-  }
-
-	.js .slicknav_menu {
-		display:block;
-	}
-}
+/*-----------------------------------------------------------------------------------*/
+/* Logo on full navigation */
+/*-----------------------------------------------------------------------------------*/
 
 .the-main-logo {
 float: left;
@@ -899,6 +868,11 @@ padding-bottom: ;
 position: relative;
 }
 
+/*-----------------------------------------------------------------------------------*/
+/* Mobile navigation bar slicknav */
+/*-----------------------------------------------------------------------------------*/
+
+/* logo */
 .moblog {
   float: left;
   width: 40%;/*jei parasysi procentais, logas dides/mazes*/
@@ -936,6 +910,49 @@ position: relative;
   padding-top:20px;
 }
 
+@media only screen and (min-width: 993px) {
+.js .slicknav_menu {
+	display:none;
+}
+}
+
+
+@media only screen and (max-width: 992px) {
+
+  .navbar-fixed-top {
+    display:none;
+  }
+
+	.js .slicknav_menu {
+		display:block;
+	}
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* Business Cards */
+/*-----------------------------------------------------------------------------------*/
+#kristupas-profile img {
+  float: left;
+}
+
+#marija-profile img {
+  float: left;
+}
+
+.profile-text {
+  margin-right: 15pt;
+}
+
+#box1 {
+  margin-bottom: 22px;
+}
+
+
+.padding {
+margin-right: 8px;
+font-size: 11pt;
+}
+
 
 @media screen and (min-width: 992px){
 .vizitine {
@@ -955,6 +972,10 @@ hr {
   display: none;
 }
 }
+
+/*-----------------------------------------------------------------------------------*/
+/* Main Big Icons */
+/*-----------------------------------------------------------------------------------*/
 
 #mainiconsbig {
   margin-top: 40px;
@@ -976,16 +997,14 @@ hr {
   }
 }
 
-.newsimagebig {
-  margin-bottom:7px;
-}
-
-.maindown {
-  font-size: 25px;
-  padding:0;
-  margin:0;
-  width: 200px;
-
+/*-----------------------------------------------------------------------------------*/
+/* Big Welcome picture */
+/*-----------------------------------------------------------------------------------*/
+.scroll-dwn-text {
+  color: white;
+  font-size: 10pt;
+  margin:0px;
+  padding:0px;
 }
 
 .maindownplace {
@@ -994,11 +1013,11 @@ hr {
   padding-bottom: 0px;
 }
 
-.scroll-dwn-text {
-  color: white;
-  font-size: 10pt;
-  margin:0px;
-  padding:0px;
+.maindown {
+  font-size: 25px;
+  padding:0;
+  margin:0;
+  width: 200px;
 }
 
 @media screen and (max-width: 991px)  {
@@ -1011,6 +1030,13 @@ hr {
 #h2-big-main-slogan {
   font-size: 20pt;
 }
+}
+/*-----------------------------------------------------------------------------------*/
+/* Index News Images */
+/*-----------------------------------------------------------------------------------*/
+
+.newsimagebig {
+  margin-bottom:7px;
 }
 
 
@@ -1034,7 +1060,7 @@ hr {
   }
 }
 
-.alternative-newsbig-img {
+.img-border {
   border: 2px solid #e7e5de;
 }
 
@@ -1066,3 +1092,4 @@ hr {
 .fixed-news-heading-black {
   color: black;
 }
+/*-----------------------------------------------------------------------------------*/
