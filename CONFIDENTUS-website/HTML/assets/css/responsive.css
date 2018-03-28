@@ -47,3 +47,52 @@
 
 
 }
+
+/*  #iPhone X
+================================================== */
+
+@media only screen and (max-width: 1125px) , screen and (max-heigth: 2436px) {
+
+}
+
+/*  #iPhone 8 plus, 7 plus, 6s plus, 6 plus
+================================================== */
+
+@media only screen and (max-width: 1242px) , screen and (max-heigth: 2208px) {
+
+}
+
+/*  #iPhone 8, 7, 6s, 6 plus
+================================================== */
+
+@media only screen and (max-width: 1080px) , screen and (max-heigth: 1920px) {
+
+}
+
+/*  #iPhone 8, 7, 6s, 6
+================================================== */
+
+@media only screen and (max-width: 750px) , screen and (max-heigth: 1334px) {
+
+}
+
+/*  # iPhone 5, 5s, 5c, SE
+================================================== */
+
+@media only screen and (max-width: 640px) , screen and (max-heigth: 1136px) {
+
+}
+
+/*  # iPhone 4, 4s
+================================================== */
+
+@media only screen and (max-width: 640px) , screen and (max-heigth: 960px) {
+
+}
+
+/*  # iPhone 2G, 3G, 3GS
+================================================== */
+
+@media only screen and (max-width: 320px) , screen and (max-heigth: 480px) {
+
+}

@@ -989,11 +989,11 @@ hr {
 }
 
 #mainicons {
-  padding-top:20px;
+  padding-top:50px;
 }
-@media screen and (max-width: 992px){
+@media screen and (max-width: 667px){
   #mainicons {
-    padding-top: 0px;
+    padding-top: 10px;
   }
 }
 
@@ -1020,13 +1020,13 @@ hr {
   width: 200px;
 }
 
-@media screen and (max-width: 480px)  {
+@media screen and (max-width: 667px), screen and (max-height: 375px)  {
 #scroll-down {
   display: none;
 }
 }
 
-@media screen and (max-width: 432px)  {
+@media screen and (max-width: 736px)  {
 #h2-big-main-slogan {
   font-size: 20pt;
 }
@@ -1111,4 +1111,20 @@ h3 br {
   pointer-events: none;
   cursor: default;
   text-decoration:none;
+}
+
+@media screen and (max-width: 667px) {
+.col-sm-6-mine {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+#header {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+#welcome {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
 }
