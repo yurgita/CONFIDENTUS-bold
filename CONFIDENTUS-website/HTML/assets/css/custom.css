@@ -996,6 +996,16 @@ hr {
     padding-top: 10px;
   }
 }
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
+  #mainicons {
+    padding-top: 20px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:landscape) {
+  #mainicons {
+    padding-top: 20px;
+  }
+}
 
 /*-----------------------------------------------------------------------------------*/
 /* Big Welcome picture */
@@ -1020,7 +1030,7 @@ hr {
   width: 200px;
 }
 
-@media screen and (max-width: 667px), screen and (max-height: 375px)  {
+@media screen and (max-height: 600px) {
 #scroll-down {
   display: none;
 }
@@ -1086,10 +1096,14 @@ hr {
 
 .fixed-news-heading-white {
   color: white;
-  font-family: sansation-bold;
+  font-family: sansation;
   font-size: 14pt;
-
+  background-color: rgba(69, 65, 50, 0.7);
 }
+
+
+
+
 .alternative-newsbig-p {
   padding-bottom: 0;
   margin-bottom: 0;
@@ -1106,25 +1120,9 @@ h3 br {
 }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1920px) {
 .not-active {
   pointer-events: none;
   cursor: default;
   text-decoration:none;
-}
-
-@media screen and (max-width: 667px) {
-.col-sm-6-mine {
-  padding-top: 0px;
-  margin-top: 0px;
-}
-#header {
-  padding-top: 0px;
-  margin-top: 0px;
-}
-#welcome {
-  padding-top: 0px;
-  margin-top: 0px;
-}
-
 }
