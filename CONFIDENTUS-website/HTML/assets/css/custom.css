@@ -1101,9 +1101,6 @@ hr {
   background-color: rgba(69, 65, 50, 0.7);
 }
 
-
-
-
 .alternative-newsbig-p {
   padding-bottom: 0;
   margin-bottom: 0;
@@ -1120,9 +1117,19 @@ h3 br {
 }
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 900px) {
 .not-active {
   pointer-events: none;
   cursor: default;
   text-decoration:none;
+}
+
+
+h2#h2-big-main-slogan {
+  color: white;
+  font-family: 'sansation';
+  /*text-shadow: 5px 5px 5px black;*/
+  /*text-shadow: 50px 50px 50px black;*/
+  /*text-shadow: -20px -20px 20px black, 0 0 150px black, 0 0 150px black;*/
+
 }
