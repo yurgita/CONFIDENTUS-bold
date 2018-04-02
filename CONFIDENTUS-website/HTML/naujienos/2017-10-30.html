@@ -26,7 +26,8 @@
         <!-- Google Fonts-->
         <link href="http://fonts.googleapis.com/css?family=Raleway:100,300,400" type="text/css" rel="stylesheet">
         <link href="http://fonts.googleapis.com/css?family=Roboto:400,300" type="text/css" rel="stylesheet">
-    </head>
+
+
 
     <body>
       <!-- Top Menu -->
@@ -87,9 +88,28 @@
                           nariai įvykdė 641 sandorius, kurių bendra vertė sudarė 3,1 billijonus eurų.
                         </p>
                         <div class="image-bottom">
-                          <a >
-                            <img src="..\assets\img\MAWW Rainmaker summit Oct 2017.jpg">
+                          <a id="pop">
+                            <img id="myImg" src="..\assets\img\MAWW Rainmaker summit Oct 2017.jpg" alt="M&A Worldwide, Barcelona">
                           </a>
+
+                          <!-- Creates the bootstrap modal where the image will appear -->
+                          <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content modal-content-mine">
+                                <div class="modal-header modal-header-mine">
+                                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Uždaryti</span></button>
+                                  <h4 class="modal-title conf-txt" id="myModalLabel">„M&A Worldwide“ susitikimas Barselonoje, 2017 m. spalis</h4>
+                                </div>
+                                <div class="modal-body">
+                                  <img src="" id="imagepreview" style="width: 800px; height: auto;" >
+                                </div>
+                                <div class="modal-footer modal-footer-mine">
+                                  <button type="button" class="btn btn-default-mine" data-dismiss="modal">Uždaryti</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
                         </div>
                         <p>Kitas „M&A Worldwide“ tinklo narių susitikimas įvyks 2018 m. balandžio mėnesį Amsterdame (Olandija).
                         <a class="gold-txt" target="_blank" href="https://m-a-worldwide.com/conventions/">Daugiau apie M&A worldwide...</a></p>

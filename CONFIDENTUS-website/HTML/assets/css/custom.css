@@ -26,6 +26,14 @@
 .conf-txt-darkest-05 { color: #0c0b09; }
 .conf-txt-darkest-06 { color: #010101; }
 
+a.ex1 {
+  color: #a77a00;
+}
+a.ex1:hover ,
+a.ex1:focus,
+a.ex1:visited {
+  color: #a77a00;
+}
 
 @font-face {
   font-family: 'sansation';
@@ -103,6 +111,7 @@
     transform:translate(-50%, -50%);
 
   }
+
 
   .portfolio-item-mine-profile figure img {
     left: 0%;
@@ -1125,6 +1134,24 @@ hr {
 .fixed-news-heading-black {
   color: black;
 }
+
+/*-----------------------------------------------------------------------------------*/
+
+.modal-content-mine {
+  border: 1px solid #efeee9;
+}
+
+.modal-header-mine {
+  border-bottom: 1px solid #efeee9;
+}
+
+.modal-footer-mine {
+  margin-top: 15px;
+  padding: 19px 20px 20px;
+  text-align: right;
+  border-top: 1px solid #efeee9;
+}
+
 /*-----------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 992px) {
@@ -1147,5 +1174,19 @@ h2#h2-big-main-slogan {
   /*text-shadow: 5px 5px 5px black;*/
   /*text-shadow: 50px 50px 50px black;*/
   /*text-shadow: -20px -20px 20px black, 0 0 150px black, 0 0 150px black;*/
+
+}
+
+@media screen and (min-width: 995px) {
+  #welcome {
+    min-height: 50%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  figure.animate > .grid-image > .featured-info > .info-wrapper{
+    font-size: 8px;
+    line-height: 10px;
+  }
 
 }
