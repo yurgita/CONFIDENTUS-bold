@@ -361,7 +361,11 @@ padding-right: 6px;
 
 .col-sm-4-mine > .featured-info, .info-wrapper {
   font-size: 15pt;
+  font-size: 2vmin;
+  line-height: normal;
 }
+
+
 
 body {padding-top: 50px; }
 
@@ -1181,12 +1185,4 @@ h2#h2-big-main-slogan {
   #welcome {
     min-height: 50%;
   }
-}
-
-@media screen and (max-width: 550px) {
-  figure.animate > .grid-image > .featured-info > .info-wrapper{
-    font-size: 8px;
-    line-height: 10px;
-  }
-
 }
