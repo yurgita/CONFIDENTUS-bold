@@ -10,7 +10,7 @@
 .conf-txt-light-03 { color: #b5af99; }
 .conf-txt-light-04 { color: #ada78e; }
 .conf-txt-light-05 { color: #a59e83; }
-.conf-txt-lightt-06 { color: #9d9577; }
+.conf-txt-light-06 { color: #9d9577; }
 .conf-txt-light-07 { color: #948c6c; }
 .conf-txt-dark-01 { color: #898163; }
 .conf-txt-dark-02 { color: #7e775b; }
@@ -198,6 +198,10 @@ a[href^="tel"] {
   background: url("../img/header_bg_2.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
   display: table;
   width: 100%;
+}
+
+.news-blog {
+  height: 203px;
 }
 
 
